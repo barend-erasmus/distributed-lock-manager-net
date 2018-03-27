@@ -24,7 +24,7 @@
 ## Usage
 
 ```CSharp
- var distributedLockManagerClient = new DistributedLockManagerClient("127.0.0.1", 5001);
+var distributedLockManagerClient = new DistributedLockManagerClient("127.0.0.1", 5001);
 
 if (distributedLockManagerClient.WaitAcquire("mylock"))
 {
